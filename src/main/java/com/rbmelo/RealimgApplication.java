@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class RealimgApplication {
 
 	public static void main(String[] args) {
+		System.setProperty("aws.java.v1.disableDeprecationAnnouncement", "true");
 		SpringApplication.run(RealimgApplication.class, args);
 	}
 
